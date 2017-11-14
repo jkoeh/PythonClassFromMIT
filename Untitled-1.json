@@ -1,0 +1,2192 @@
+{
+  "Response": {
+    "OriginatingUri": "https://ste.cloud-test.illumina.com",
+    "References": [
+      {
+        "Rel": "Input",
+        "Type": "AppResult",
+        "Href": "v1pre3/appresults/53056",
+        "HrefContent": "v1pre3/appresults/53056",
+        "Content": {
+          "Id": "53056",
+          "Href": "v1pre3/appresults/53056",
+          "UserOwnedBy": {
+            "Id": "78081",
+            "Href": "v1pre3/users/78081",
+            "Name": "stebe user1",
+            "DateCreated": "0001-01-01T00:00:00.0000000",
+            "GravatarUrl":
+              "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+          },
+          "Name": "LundU_Staaf_TST-AddOn_StrandB_Manifest (Upload Pending)",
+          "Status": "Aborted",
+          "StatusSummary": "Purged data and aborted appsession",
+          "DateCreated": "2017-11-13T19:42:06.0000000",
+          "TotalSize": 0,
+          "AppSession": {
+            "Id": "276279",
+            "Name": "LundU_Staaf_TST-AddOn_StrandB_Manifest (Upload Pending)",
+            "Href": "v1pre3/appsessions/276279",
+            "Application": {
+              "Id": "10",
+              "Href": "v1pre3/applications/10",
+              "Name": "Imported",
+              "VersionNumber": "1.0.0",
+              "ShortDescription": "auto created for uploader app",
+              "DateCreated": "2016-05-04T00:00:00.0000000",
+              "PublishStatus": "Published",
+              "IsBillingActivated": false,
+              "Category": "Uploader",
+              "Classifications": [],
+              "AppFamilySlug": "imported",
+              "AppVersionSlug": "imported.1.0.0",
+              "Features": [],
+              "LockStatus": "Unlocked"
+            },
+            "UserCreatedBy": {
+              "Id": "78081",
+              "Href": "v1pre3/users/78081",
+              "Name": "stebe user1",
+              "DateCreated": "0001-01-01T00:00:00.0000000",
+              "GravatarUrl":
+                "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+            },
+            "Status": "Aborted",
+            "QcStatus": "Undefined",
+            "StatusSummary": "Purged data and aborted appsession",
+            "DateCreated": "2017-11-13T19:42:06.0000000",
+            "ModifiedOn": "2017-11-13T19:42:20.0000000",
+            "DateCompleted": "2017-11-13T19:42:20.0000000",
+            "IsDeleted": true
+          },
+          "IsDeleted": true
+        }
+      },
+      {
+        "Rel": "Input",
+        "Type": "AppResult",
+        "Href": "v1pre3/appresults/53057",
+        "HrefContent": "v1pre3/appresults/53057",
+        "Content": {
+          "Id": "53057",
+          "Href": "v1pre3/appresults/53057",
+          "UserOwnedBy": {
+            "Id": "78081",
+            "Href": "v1pre3/users/78081",
+            "Name": "stebe user1",
+            "DateCreated": "0001-01-01T00:00:00.0000000",
+            "GravatarUrl":
+              "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+          },
+          "Name": "LundU_Staaf_TST-AddOn_Manifest",
+          "Status": "Complete",
+          "StatusSummary": "",
+          "DateCreated": "2017-11-13T19:42:34.0000000",
+          "TotalSize": 1295707,
+          "AppSession": {
+            "Id": "276280",
+            "Name": "LundU_Staaf_TST-AddOn_Manifest",
+            "Href": "v1pre3/appsessions/276280",
+            "Application": {
+              "Id": "10",
+              "Href": "v1pre3/applications/10",
+              "Name": "Imported",
+              "VersionNumber": "1.0.0",
+              "ShortDescription": "auto created for uploader app",
+              "DateCreated": "2016-05-04T00:00:00.0000000",
+              "PublishStatus": "Published",
+              "IsBillingActivated": false,
+              "Category": "Uploader",
+              "Classifications": [],
+              "AppFamilySlug": "imported",
+              "AppVersionSlug": "imported.1.0.0",
+              "Features": [],
+              "LockStatus": "Unlocked"
+            },
+            "UserCreatedBy": {
+              "Id": "78081",
+              "Href": "v1pre3/users/78081",
+              "Name": "stebe user1",
+              "DateCreated": "0001-01-01T00:00:00.0000000",
+              "GravatarUrl":
+                "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+            },
+            "Status": "Complete",
+            "QcStatus": "Undefined",
+            "StatusSummary": "",
+            "DateCreated": "2017-11-13T19:42:34.0000000",
+            "ModifiedOn": "2017-11-13T19:42:40.0000000",
+            "DateCompleted": "2017-11-13T19:42:44.0000000",
+            "TotalSize": 1295707
+          }
+        }
+      },
+      {
+        "Rel": "Input",
+        "Type": "File",
+        "Href": "v1pre3/files/679692",
+        "HrefContent": "v1pre3/files/679692",
+        "Content": {
+          "Id": "679692",
+          "Href": "v1pre3/files/679692",
+          "HrefContent": "v1pre3/files/679692/content",
+          "Name": "LundU_Staaf_TST-AddOn_StrandA_Manifest.txt",
+          "ContentType": "text/plain",
+          "Size": 654259,
+          "Path": "LundU_Staaf_TST-AddOn_StrandA_Manifest.txt",
+          "DateCreated": "2017-11-13T19:42:35.0000000",
+          "Category": "Basespace.Manifest.Amplicon",
+          "ETag": "cd7296a4e32aea960b57fde5f0ba0c57",
+          "IdAsLong": 679692
+        }
+      },
+      {
+        "Rel": "Input",
+        "Type": "Sample",
+        "Href": "v1pre3/samples/98098",
+        "HrefContent": "v1pre3/samples/98098",
+        "Content": {
+          "Id": "98098",
+          "Href": "v1pre3/samples/98098",
+          "IsMerged": false,
+          "UserOwnedBy": {
+            "Id": "78081",
+            "Href": "v1pre3/users/78081",
+            "Name": "stebe user1",
+            "DateCreated": "0001-01-01T00:00:00.0000000",
+            "GravatarUrl":
+              "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+          },
+          "Name": "LundU-Staaf-A-NA12877-1",
+          "SampleId": "LundU-Staaf-A-NA12877-1",
+          "Status": "Complete",
+          "StatusSummary": "",
+          "DateCreated": "2017-11-13T19:43:06.0000000",
+          "TotalSize": 74636461,
+          "Library": {
+            "OwnerUser": {
+              "Id": "78081",
+              "Href": "v1pre3/users/78081",
+              "Name": "stebe user1",
+              "DateCreated": "0001-01-01T00:00:00.0000000",
+              "GravatarUrl":
+                "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+            },
+            "Id": "67067",
+            "Href": "v1pre3/libraries/67067",
+            "BiologicalSample": {
+              "Id": "74074",
+              "Href": "v1pre3/biologicalsamples/74074",
+              "UserSampleId": "LundU-Staaf-A-NA12877-1",
+              "NucleicAcid": "Undefined",
+              "Project": {
+                "Id": "252252",
+                "UserOwnedBy": {
+                  "Id": "78081",
+                  "Href": "v1pre3/users/78081",
+                  "Name": "stebe user1",
+                  "DateCreated": "0001-01-01T00:00:00.0000000",
+                  "GravatarUrl":
+                    "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                },
+                "Href": "v1pre3/projects/252252",
+                "Name": "Amplicon DS",
+                "Description": "",
+                "DateCreated": "2017-11-13T19:41:32.0000000",
+                "DateModified": "2017-11-13T19:44:44.0000000",
+                "HasCollaborators": false,
+                "TotalSize": 340721753
+              },
+              "UserOwnedBy": {
+                "Id": "78081",
+                "Href": "v1pre3/users/78081",
+                "Name": "stebe user1",
+                "DateCreated": "0001-01-01T00:00:00.0000000",
+                "GravatarUrl":
+                  "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+              },
+              "DateModified": "2017-11-13T19:43:24.0000000"
+            },
+            "DateModified": "2017-11-13T19:43:23.0000000",
+            "LibraryPrep": {
+              "Id": "22",
+              "Href": "v1pre3/libraryprepkits/22",
+              "Name": "Unknown",
+              "ValidIndexingStrategies": "None,SingleIndex,DualIndex",
+              "ValidReadTypes": "SingleRead,PairedEnd",
+              "NumIndexCycles": 0,
+              "DateModified": "2016-05-04T20:37:18.0000000",
+              "State": "Active",
+              "DefaultRead1Cycles": 0,
+              "DefaultRead2Cycles": 0
+            },
+            "Project": {
+              "Id": "252252",
+              "UserOwnedBy": {
+                "Id": "78081",
+                "Href": "v1pre3/users/78081",
+                "Name": "stebe user1",
+                "DateCreated": "0001-01-01T00:00:00.0000000",
+                "GravatarUrl":
+                  "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+              },
+              "Href": "v1pre3/projects/252252",
+              "Name": "Amplicon DS",
+              "Description": "",
+              "DateCreated": "2017-11-13T19:41:32.0000000",
+              "DateModified": "2017-11-13T19:44:44.0000000",
+              "HasCollaborators": false,
+              "TotalSize": 340721753
+            },
+            "LibraryName": "LundU-Staaf-A-NA12877-1",
+            "State": "Active"
+          },
+          "Genome": {
+            "Id": "4",
+            "DisplayName": "Homo Sapiens - UCSC (hg19)",
+            "SpeciesName": "Homo sapiens",
+            "Source": "UCSC",
+            "Build": "hg19",
+            "Href": "v1pre3/genomes/4",
+            "HrefAnnotations": "v1pre3/genomes/4/annotations"
+          },
+          "Read1": 76,
+          "Read2": 76,
+          "NumReadsPF": 581994,
+          "NumReadsRaw": 581994,
+          "TotalReadsRaw": 1163988,
+          "TotalReadsPF": 1163988,
+          "TotalClustersRaw": 581994,
+          "TotalClustersPF": 581994,
+          "IsPairedEnd": true
+        }
+      },
+      {
+        "Rel": "Input",
+        "Type": "Sample",
+        "Href": "v1pre3/samples/98099",
+        "HrefContent": "v1pre3/samples/98099",
+        "Content": {
+          "Id": "98099",
+          "Href": "v1pre3/samples/98099",
+          "IsMerged": false,
+          "UserOwnedBy": {
+            "Id": "78081",
+            "Href": "v1pre3/users/78081",
+            "Name": "stebe user1",
+            "DateCreated": "0001-01-01T00:00:00.0000000",
+            "GravatarUrl":
+              "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+          },
+          "Name": "LundU-Staaf-A-NA12878-1",
+          "SampleId": "LundU-Staaf-A-NA12878-1",
+          "Status": "Complete",
+          "StatusSummary": "",
+          "DateCreated": "2017-11-13T19:43:43.0000000",
+          "TotalSize": 75998042,
+          "Library": {
+            "OwnerUser": {
+              "Id": "78081",
+              "Href": "v1pre3/users/78081",
+              "Name": "stebe user1",
+              "DateCreated": "0001-01-01T00:00:00.0000000",
+              "GravatarUrl":
+                "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+            },
+            "Id": "67068",
+            "Href": "v1pre3/libraries/67068",
+            "BiologicalSample": {
+              "Id": "74075",
+              "Href": "v1pre3/biologicalsamples/74075",
+              "UserSampleId": "LundU-Staaf-A-NA12878-1",
+              "NucleicAcid": "Undefined",
+              "Project": {
+                "Id": "252252",
+                "UserOwnedBy": {
+                  "Id": "78081",
+                  "Href": "v1pre3/users/78081",
+                  "Name": "stebe user1",
+                  "DateCreated": "0001-01-01T00:00:00.0000000",
+                  "GravatarUrl":
+                    "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                },
+                "Href": "v1pre3/projects/252252",
+                "Name": "Amplicon DS",
+                "Description": "",
+                "DateCreated": "2017-11-13T19:41:32.0000000",
+                "DateModified": "2017-11-13T19:44:44.0000000",
+                "HasCollaborators": false,
+                "TotalSize": 340721753
+              },
+              "UserOwnedBy": {
+                "Id": "78081",
+                "Href": "v1pre3/users/78081",
+                "Name": "stebe user1",
+                "DateCreated": "0001-01-01T00:00:00.0000000",
+                "GravatarUrl":
+                  "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+              },
+              "DateModified": "2017-11-13T19:44:00.0000000"
+            },
+            "DateModified": "2017-11-13T19:43:58.0000000",
+            "LibraryPrep": {
+              "Id": "22",
+              "Href": "v1pre3/libraryprepkits/22",
+              "Name": "Unknown",
+              "ValidIndexingStrategies": "None,SingleIndex,DualIndex",
+              "ValidReadTypes": "SingleRead,PairedEnd",
+              "NumIndexCycles": 0,
+              "DateModified": "2016-05-04T20:37:18.0000000",
+              "State": "Active",
+              "DefaultRead1Cycles": 0,
+              "DefaultRead2Cycles": 0
+            },
+            "Project": {
+              "Id": "252252",
+              "UserOwnedBy": {
+                "Id": "78081",
+                "Href": "v1pre3/users/78081",
+                "Name": "stebe user1",
+                "DateCreated": "0001-01-01T00:00:00.0000000",
+                "GravatarUrl":
+                  "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+              },
+              "Href": "v1pre3/projects/252252",
+              "Name": "Amplicon DS",
+              "Description": "",
+              "DateCreated": "2017-11-13T19:41:32.0000000",
+              "DateModified": "2017-11-13T19:44:44.0000000",
+              "HasCollaborators": false,
+              "TotalSize": 340721753
+            },
+            "LibraryName": "LundU-Staaf-A-NA12878-1",
+            "State": "Active"
+          },
+          "Genome": {
+            "Id": "4",
+            "DisplayName": "Homo Sapiens - UCSC (hg19)",
+            "SpeciesName": "Homo sapiens",
+            "Source": "UCSC",
+            "Build": "hg19",
+            "Href": "v1pre3/genomes/4",
+            "HrefAnnotations": "v1pre3/genomes/4/annotations"
+          },
+          "Read1": 76,
+          "Read2": 76,
+          "NumReadsPF": 590057,
+          "NumReadsRaw": 590057,
+          "TotalReadsRaw": 1180114,
+          "TotalReadsPF": 1180114,
+          "TotalClustersRaw": 590057,
+          "TotalClustersPF": 590057,
+          "IsPairedEnd": true
+        }
+      },
+      {
+        "Rel": "Input",
+        "Type": "Sample",
+        "Href": "v1pre3/samples/98100",
+        "HrefContent": "v1pre3/samples/98100",
+        "Content": {
+          "Id": "98100",
+          "Href": "v1pre3/samples/98100",
+          "IsMerged": false,
+          "UserOwnedBy": {
+            "Id": "78081",
+            "Href": "v1pre3/users/78081",
+            "Name": "stebe user1",
+            "DateCreated": "0001-01-01T00:00:00.0000000",
+            "GravatarUrl":
+              "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+          },
+          "Name": "LundU-Staaf-B-NA12877-1",
+          "SampleId": "LundU-Staaf-B-NA12877-1",
+          "Status": "Complete",
+          "StatusSummary": "",
+          "DateCreated": "2017-11-13T19:44:18.0000000",
+          "TotalSize": 93756201,
+          "Library": {
+            "OwnerUser": {
+              "Id": "78081",
+              "Href": "v1pre3/users/78081",
+              "Name": "stebe user1",
+              "DateCreated": "0001-01-01T00:00:00.0000000",
+              "GravatarUrl":
+                "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+            },
+            "Id": "67069",
+            "Href": "v1pre3/libraries/67069",
+            "BiologicalSample": {
+              "Id": "74076",
+              "Href": "v1pre3/biologicalsamples/74076",
+              "UserSampleId": "LundU-Staaf-B-NA12877-1",
+              "NucleicAcid": "Undefined",
+              "Project": {
+                "Id": "252252",
+                "UserOwnedBy": {
+                  "Id": "78081",
+                  "Href": "v1pre3/users/78081",
+                  "Name": "stebe user1",
+                  "DateCreated": "0001-01-01T00:00:00.0000000",
+                  "GravatarUrl":
+                    "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                },
+                "Href": "v1pre3/projects/252252",
+                "Name": "Amplicon DS",
+                "Description": "",
+                "DateCreated": "2017-11-13T19:41:32.0000000",
+                "DateModified": "2017-11-13T19:44:44.0000000",
+                "HasCollaborators": false,
+                "TotalSize": 340721753
+              },
+              "UserOwnedBy": {
+                "Id": "78081",
+                "Href": "v1pre3/users/78081",
+                "Name": "stebe user1",
+                "DateCreated": "0001-01-01T00:00:00.0000000",
+                "GravatarUrl":
+                  "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+              },
+              "DateModified": "2017-11-13T19:44:31.0000000"
+            },
+            "DateModified": "2017-11-13T19:44:31.0000000",
+            "LibraryPrep": {
+              "Id": "22",
+              "Href": "v1pre3/libraryprepkits/22",
+              "Name": "Unknown",
+              "ValidIndexingStrategies": "None,SingleIndex,DualIndex",
+              "ValidReadTypes": "SingleRead,PairedEnd",
+              "NumIndexCycles": 0,
+              "DateModified": "2016-05-04T20:37:18.0000000",
+              "State": "Active",
+              "DefaultRead1Cycles": 0,
+              "DefaultRead2Cycles": 0
+            },
+            "Project": {
+              "Id": "252252",
+              "UserOwnedBy": {
+                "Id": "78081",
+                "Href": "v1pre3/users/78081",
+                "Name": "stebe user1",
+                "DateCreated": "0001-01-01T00:00:00.0000000",
+                "GravatarUrl":
+                  "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+              },
+              "Href": "v1pre3/projects/252252",
+              "Name": "Amplicon DS",
+              "Description": "",
+              "DateCreated": "2017-11-13T19:41:32.0000000",
+              "DateModified": "2017-11-13T19:44:44.0000000",
+              "HasCollaborators": false,
+              "TotalSize": 340721753
+            },
+            "LibraryName": "LundU-Staaf-B-NA12877-1",
+            "State": "Active"
+          },
+          "Genome": {
+            "Id": "4",
+            "DisplayName": "Homo Sapiens - UCSC (hg19)",
+            "SpeciesName": "Homo sapiens",
+            "Source": "UCSC",
+            "Build": "hg19",
+            "Href": "v1pre3/genomes/4",
+            "HrefAnnotations": "v1pre3/genomes/4/annotations"
+          },
+          "Read1": 76,
+          "Read2": 76,
+          "NumReadsPF": 731805,
+          "NumReadsRaw": 731805,
+          "TotalReadsRaw": 1463610,
+          "TotalReadsPF": 1463610,
+          "TotalClustersRaw": 731805,
+          "TotalClustersPF": 731805,
+          "IsPairedEnd": true
+        }
+      },
+      {
+        "Rel": "Input",
+        "Type": "Sample",
+        "Href": "v1pre3/samples/98101",
+        "HrefContent": "v1pre3/samples/98101",
+        "Content": {
+          "Id": "98101",
+          "Href": "v1pre3/samples/98101",
+          "IsMerged": false,
+          "UserOwnedBy": {
+            "Id": "78081",
+            "Href": "v1pre3/users/78081",
+            "Name": "stebe user1",
+            "DateCreated": "0001-01-01T00:00:00.0000000",
+            "GravatarUrl":
+              "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+          },
+          "Name": "LundU-Staaf-B-NA12878-1",
+          "SampleId": "LundU-Staaf-B-NA12878-1",
+          "Status": "Complete",
+          "StatusSummary": "",
+          "DateCreated": "2017-11-13T19:44:32.0000000",
+          "TotalSize": 95035342,
+          "Library": {
+            "OwnerUser": {
+              "Id": "78081",
+              "Href": "v1pre3/users/78081",
+              "Name": "stebe user1",
+              "DateCreated": "0001-01-01T00:00:00.0000000",
+              "GravatarUrl":
+                "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+            },
+            "Id": "67070",
+            "Href": "v1pre3/libraries/67070",
+            "BiologicalSample": {
+              "Id": "74077",
+              "Href": "v1pre3/biologicalsamples/74077",
+              "UserSampleId": "LundU-Staaf-B-NA12878-1",
+              "NucleicAcid": "Undefined",
+              "Project": {
+                "Id": "252252",
+                "UserOwnedBy": {
+                  "Id": "78081",
+                  "Href": "v1pre3/users/78081",
+                  "Name": "stebe user1",
+                  "DateCreated": "0001-01-01T00:00:00.0000000",
+                  "GravatarUrl":
+                    "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                },
+                "Href": "v1pre3/projects/252252",
+                "Name": "Amplicon DS",
+                "Description": "",
+                "DateCreated": "2017-11-13T19:41:32.0000000",
+                "DateModified": "2017-11-13T19:44:44.0000000",
+                "HasCollaborators": false,
+                "TotalSize": 340721753
+              },
+              "UserOwnedBy": {
+                "Id": "78081",
+                "Href": "v1pre3/users/78081",
+                "Name": "stebe user1",
+                "DateCreated": "0001-01-01T00:00:00.0000000",
+                "GravatarUrl":
+                  "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+              },
+              "DateModified": "2017-11-13T19:44:45.0000000"
+            },
+            "DateModified": "2017-11-13T19:44:44.0000000",
+            "LibraryPrep": {
+              "Id": "22",
+              "Href": "v1pre3/libraryprepkits/22",
+              "Name": "Unknown",
+              "ValidIndexingStrategies": "None,SingleIndex,DualIndex",
+              "ValidReadTypes": "SingleRead,PairedEnd",
+              "NumIndexCycles": 0,
+              "DateModified": "2016-05-04T20:37:18.0000000",
+              "State": "Active",
+              "DefaultRead1Cycles": 0,
+              "DefaultRead2Cycles": 0
+            },
+            "Project": {
+              "Id": "252252",
+              "UserOwnedBy": {
+                "Id": "78081",
+                "Href": "v1pre3/users/78081",
+                "Name": "stebe user1",
+                "DateCreated": "0001-01-01T00:00:00.0000000",
+                "GravatarUrl":
+                  "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+              },
+              "Href": "v1pre3/projects/252252",
+              "Name": "Amplicon DS",
+              "Description": "",
+              "DateCreated": "2017-11-13T19:41:32.0000000",
+              "DateModified": "2017-11-13T19:44:44.0000000",
+              "HasCollaborators": false,
+              "TotalSize": 340721753
+            },
+            "LibraryName": "LundU-Staaf-B-NA12878-1",
+            "State": "Active"
+          },
+          "Genome": {
+            "Id": "4",
+            "DisplayName": "Homo Sapiens - UCSC (hg19)",
+            "SpeciesName": "Homo sapiens",
+            "Source": "UCSC",
+            "Build": "hg19",
+            "Href": "v1pre3/genomes/4",
+            "HrefAnnotations": "v1pre3/genomes/4/annotations"
+          },
+          "Read1": 76,
+          "Read2": 76,
+          "NumReadsPF": 737418,
+          "NumReadsRaw": 737418,
+          "TotalReadsRaw": 1474836,
+          "TotalReadsPF": 1474836,
+          "TotalClustersRaw": 737418,
+          "TotalClustersPF": 737418,
+          "IsPairedEnd": true
+        }
+      },
+      {
+        "Rel": "Using",
+        "Type": "Project",
+        "Href": "v1pre3/projects/252252",
+        "HrefContent": "v1pre3/projects/252252",
+        "Content": {
+          "Id": "252252",
+          "UserOwnedBy": {
+            "Id": "78081",
+            "Href": "v1pre3/users/78081",
+            "Name": "stebe user1",
+            "DateCreated": "0001-01-01T00:00:00.0000000",
+            "GravatarUrl":
+              "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+          },
+          "Href": "v1pre3/projects/252252",
+          "Name": "Amplicon DS",
+          "Description": "",
+          "DateCreated": "2017-11-13T19:41:32.0000000",
+          "DateModified": "2017-11-13T19:44:44.0000000",
+          "HasCollaborators": false,
+          "TotalSize": 340721753
+        }
+      }
+    ],
+    "Children": [
+      {
+        "Id": "278279",
+        "Name": "Amplicon DS 11/13/2017 11:44:59 1",
+        "Href": "v1pre3/appsessions/278279",
+        "Application": {
+          "Id": "11012",
+          "Href": "v1pre3/applications/11012",
+          "Name": "Amplicon DS",
+          "CompanyName": "Illumina, Inc.",
+          "VersionNumber": "1.2.0",
+          "HomepageUri":
+            "https://support.illumina.com/help/BaseSpace_App_AmpliconDS_v1_2_help/amplicon-ds-v1-2-help.htm",
+          "ShortDescription":
+            "Enables streamlined analysis of the Illumina TruSight Tumor 26 and dual pool (dual strand) TruSeq Custom Amplicon panels",
+          "DateCreated": "2016-05-09T18:52:46.0000000",
+          "DatePublished": "2015-10-07T23:09:21.0000000",
+          "PublishStatus": "Published",
+          "IsBillingActivated": false,
+          "Category": "Native",
+          "Classifications": ["Resequencing", "TargetedSequencing"],
+          "AppFamilySlug": "illumina-inc.amplicon-ds",
+          "AppVersionSlug": "illumina-inc.amplicon-ds.1.2.0",
+          "Features": [],
+          "LockStatus": "Unlocked"
+        },
+        "UserCreatedBy": {
+          "Id": "78081",
+          "Href": "v1pre3/users/78081",
+          "Name": "stebe user1",
+          "DateCreated": "2016-09-30T22:21:22.0000000",
+          "GravatarUrl":
+            "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG",
+          "ExternalDomainId":
+            "YXdzLXVzLXBsYXRmb3JtOjEwMDAwMDQyOjJjM2I4NmM4LWUzN2YtNGJjMy1hMDJlLTBmZmIyYTYyNmE3Yg"
+        },
+        "Status": "Aborted",
+        "StatusSummary": "Error during application startup",
+        "Purpose": "AppTrigger",
+        "DateCreated": "2017-11-13T19:46:21.0000000",
+        "ModifiedOn": "2017-11-13T19:50:43.0000000",
+        "DateCompleted": "2017-11-13T19:50:43.0000000",
+        "TotalSize": 0
+      }
+    ],
+    "Id": "277301",
+    "Name": "Amplicon DS 11/13/2017 11:44:59",
+    "Href": "v1pre3/appsessions/277301",
+    "Application": {
+      "Id": "11012",
+      "Href": "v1pre3/applications/11012",
+      "Name": "Amplicon DS",
+      "CompanyName": "Illumina, Inc.",
+      "VersionNumber": "1.2.0",
+      "HomepageUri":
+        "https://support.illumina.com/help/BaseSpace_App_AmpliconDS_v1_2_help/amplicon-ds-v1-2-help.htm",
+      "ShortDescription":
+        "Enables streamlined analysis of the Illumina TruSight Tumor 26 and dual pool (dual strand) TruSeq Custom Amplicon panels",
+      "DateCreated": "2016-05-09T18:52:46.0000000",
+      "DatePublished": "2015-10-07T23:09:21.0000000",
+      "PublishStatus": "Published",
+      "IsBillingActivated": false,
+      "Category": "Native",
+      "Classifications": ["Resequencing", "TargetedSequencing"],
+      "AppFamilySlug": "illumina-inc.amplicon-ds",
+      "AppVersionSlug": "illumina-inc.amplicon-ds.1.2.0",
+      "Features": [],
+      "LockStatus": "Unlocked"
+    },
+    "UserCreatedBy": {
+      "Id": "78081",
+      "Href": "v1pre3/users/78081",
+      "Name": "stebe user1",
+      "DateCreated": "2016-09-30T22:21:22.0000000",
+      "GravatarUrl":
+        "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG",
+      "ExternalDomainId":
+        "YXdzLXVzLXBsYXRmb3JtOjEwMDAwMDQyOjJjM2I4NmM4LWUzN2YtNGJjMy1hMDJlLTBmZmIyYTYyNmE3Yg"
+    },
+    "Status": "Aborted",
+    "StatusSummary": "",
+    "Purpose": "AppTrigger",
+    "DateCreated": "2017-11-13T19:46:23.0000000",
+    "ModifiedOn": "2017-11-13T19:50:43.0000000",
+    "DateCompleted": "2017-11-13T19:50:43.0000000",
+    "TotalSize": 0,
+    "Properties": {
+      "Items": [
+        {
+          "Type": "string",
+          "Href":
+            "v1pre3/appsessions/277301/properties/BaseSpace.Private.IsMultiNode",
+          "Name": "BaseSpace.Private.IsMultiNode",
+          "Description": "",
+          "Content": "True"
+        },
+        {
+          "Type": "string",
+          "Href":
+            "v1pre3/appsessions/277301/properties/Input.annotation-source",
+          "Name": "Input.annotation-source",
+          "Description": "Annotation",
+          "Content": "refseq"
+        },
+        {
+          "Type": "string",
+          "Href": "v1pre3/appsessions/277301/properties/Input.app-session-name",
+          "Name": "Input.app-session-name",
+          "Description": "Analysis Name",
+          "Content": "Amplicon DS 11/13/2017 11:44:59"
+        },
+        {
+          "Type": "appresult[]",
+          "Href": "v1pre3/appsessions/277301/properties/Input.AppResults",
+          "Name": "Input.AppResults",
+          "Description": "",
+          "Items": [
+            {
+              "Id": "53056",
+              "Href": "v1pre3/appresults/53056",
+              "UserOwnedBy": {
+                "Id": "78081",
+                "Href": "v1pre3/users/78081",
+                "Name": "stebe user1",
+                "DateCreated": "0001-01-01T00:00:00.0000000",
+                "GravatarUrl":
+                  "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+              },
+              "Name": "LundU_Staaf_TST-AddOn_StrandB_Manifest (Upload Pending)",
+              "Status": "Aborted",
+              "StatusSummary": "Purged data and aborted appsession",
+              "DateCreated": "2017-11-13T19:42:06.0000000",
+              "TotalSize": 0,
+              "AppSession": {
+                "Id": "276279",
+                "Name":
+                  "LundU_Staaf_TST-AddOn_StrandB_Manifest (Upload Pending)",
+                "Href": "v1pre3/appsessions/276279",
+                "Application": {
+                  "Id": "10",
+                  "Href": "v1pre3/applications/10",
+                  "Name": "Imported",
+                  "VersionNumber": "1.0.0",
+                  "ShortDescription": "auto created for uploader app",
+                  "DateCreated": "2016-05-04T00:00:00.0000000",
+                  "PublishStatus": "Published",
+                  "IsBillingActivated": false,
+                  "Category": "Uploader",
+                  "Classifications": [],
+                  "AppFamilySlug": "imported",
+                  "AppVersionSlug": "imported.1.0.0",
+                  "Features": [],
+                  "LockStatus": "Unlocked"
+                },
+                "UserCreatedBy": {
+                  "Id": "78081",
+                  "Href": "v1pre3/users/78081",
+                  "Name": "stebe user1",
+                  "DateCreated": "0001-01-01T00:00:00.0000000",
+                  "GravatarUrl":
+                    "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                },
+                "Status": "Aborted",
+                "QcStatus": "Undefined",
+                "StatusSummary": "Purged data and aborted appsession",
+                "DateCreated": "2017-11-13T19:42:06.0000000",
+                "ModifiedOn": "2017-11-13T19:42:20.0000000",
+                "DateCompleted": "2017-11-13T19:42:20.0000000",
+                "IsDeleted": true
+              },
+              "IsDeleted": true
+            },
+            {
+              "Id": "53057",
+              "Href": "v1pre3/appresults/53057",
+              "UserOwnedBy": {
+                "Id": "78081",
+                "Href": "v1pre3/users/78081",
+                "Name": "stebe user1",
+                "DateCreated": "0001-01-01T00:00:00.0000000",
+                "GravatarUrl":
+                  "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+              },
+              "Name": "LundU_Staaf_TST-AddOn_Manifest",
+              "Status": "Complete",
+              "StatusSummary": "",
+              "DateCreated": "2017-11-13T19:42:34.0000000",
+              "TotalSize": 1295707,
+              "AppSession": {
+                "Id": "276280",
+                "Name": "LundU_Staaf_TST-AddOn_Manifest",
+                "Href": "v1pre3/appsessions/276280",
+                "Application": {
+                  "Id": "10",
+                  "Href": "v1pre3/applications/10",
+                  "Name": "Imported",
+                  "VersionNumber": "1.0.0",
+                  "ShortDescription": "auto created for uploader app",
+                  "DateCreated": "2016-05-04T00:00:00.0000000",
+                  "PublishStatus": "Published",
+                  "IsBillingActivated": false,
+                  "Category": "Uploader",
+                  "Classifications": [],
+                  "AppFamilySlug": "imported",
+                  "AppVersionSlug": "imported.1.0.0",
+                  "Features": [],
+                  "LockStatus": "Unlocked"
+                },
+                "UserCreatedBy": {
+                  "Id": "78081",
+                  "Href": "v1pre3/users/78081",
+                  "Name": "stebe user1",
+                  "DateCreated": "0001-01-01T00:00:00.0000000",
+                  "GravatarUrl":
+                    "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                },
+                "Status": "Complete",
+                "QcStatus": "Undefined",
+                "StatusSummary": "",
+                "DateCreated": "2017-11-13T19:42:34.0000000",
+                "ModifiedOn": "2017-11-13T19:42:40.0000000",
+                "DateCompleted": "2017-11-13T19:42:44.0000000",
+                "TotalSize": 1295707
+              }
+            }
+          ],
+          "HrefItems":
+            "v1pre3/appsessions/277301/properties/Input.AppResults/items",
+          "ItemsDisplayedCount": 2,
+          "ItemsTotalCount": 2
+        },
+        {
+          "Type": "file",
+          "Href":
+            "v1pre3/appsessions/277301/properties/Input.custom-pool-a-manifest",
+          "Name": "Input.custom-pool-a-manifest",
+          "Description": "Custom Pool A Manifest File",
+          "Content": {
+            "Id": "679692",
+            "Href": "v1pre3/files/679692",
+            "HrefContent": "v1pre3/files/679692/content",
+            "Name": "LundU_Staaf_TST-AddOn_StrandA_Manifest.txt",
+            "ContentType": "text/plain",
+            "Size": 654259,
+            "Path": "LundU_Staaf_TST-AddOn_StrandA_Manifest.txt",
+            "DateCreated": "2017-11-13T19:42:35.0000000",
+            "ParentAppResult": {
+              "Id": "53057",
+              "Href": "v1pre3/appresults/53057",
+              "UserOwnedBy": {
+                "Id": "78081",
+                "Href": "v1pre3/users/78081",
+                "Name": "stebe user1",
+                "DateCreated": "0001-01-01T00:00:00.0000000",
+                "GravatarUrl":
+                  "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+              },
+              "Name": "LundU_Staaf_TST-AddOn_Manifest",
+              "Status": "Complete",
+              "StatusSummary": "",
+              "DateCreated": "2017-11-13T19:42:34.0000000",
+              "TotalSize": 1295707,
+              "AppSession": {
+                "Id": "276280",
+                "Name": "LundU_Staaf_TST-AddOn_Manifest",
+                "Href": "v1pre3/appsessions/276280",
+                "Application": {
+                  "Id": "10",
+                  "Href": "v1pre3/applications/10",
+                  "Name": "Imported",
+                  "VersionNumber": "1.0.0",
+                  "ShortDescription": "auto created for uploader app",
+                  "DateCreated": "2016-05-04T00:00:00.0000000",
+                  "PublishStatus": "Published",
+                  "IsBillingActivated": false,
+                  "Category": "Uploader",
+                  "Classifications": [],
+                  "AppFamilySlug": "imported",
+                  "AppVersionSlug": "imported.1.0.0",
+                  "Features": [],
+                  "LockStatus": "Unlocked"
+                },
+                "UserCreatedBy": {
+                  "Id": "78081",
+                  "Href": "v1pre3/users/78081",
+                  "Name": "stebe user1",
+                  "DateCreated": "0001-01-01T00:00:00.0000000",
+                  "GravatarUrl":
+                    "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                },
+                "Status": "Complete",
+                "QcStatus": "Undefined",
+                "StatusSummary": "",
+                "DateCreated": "2017-11-13T19:42:34.0000000",
+                "ModifiedOn": "2017-11-13T19:42:40.0000000",
+                "DateCompleted": "2017-11-13T19:42:44.0000000",
+                "TotalSize": 1295707
+              }
+            },
+            "Category": "Basespace.Manifest.Amplicon",
+            "ETag": "cd7296a4e32aea960b57fde5f0ba0c57",
+            "IdAsLong": 679692
+          }
+        },
+        {
+          "Type": "map[]",
+          "Href":
+            "v1pre3/appsessions/277301/properties/Input.custom-pool-a-manifest.attributes",
+          "Name": "Input.custom-pool-a-manifest.attributes",
+          "Description": "Custom Pool A Manifest File Attributes",
+          "Items": [
+            [
+              { "Key": "FieldId", "Values": ["custom-pool-a-manifest"] },
+              { "Key": "ResourceType", "Values": ["filesummary"] },
+              { "Key": "ResourceId", "Values": ["679692"] },
+              { "Key": "ResourceHref", "Values": ["v1pre3/files/679692"] }
+            ]
+          ],
+          "HrefItems":
+            "v1pre3/appsessions/277301/properties/Input.custom-pool-a-manifest.attributes/items",
+          "ItemsDisplayedCount": 1,
+          "ItemsTotalCount": 1
+        },
+        {
+          "Type": "file",
+          "Href":
+            "v1pre3/appsessions/277301/properties/Input.custom-pool-b-manifest",
+          "Name": "Input.custom-pool-b-manifest",
+          "Description": "Custom Pool B Manifest File"
+        },
+        {
+          "Type": "map[]",
+          "Href":
+            "v1pre3/appsessions/277301/properties/Input.custom-pool-b-manifest.attributes",
+          "Name": "Input.custom-pool-b-manifest.attributes",
+          "Description": "Custom Pool B Manifest File Attributes",
+          "Items": [
+            [
+              { "Key": "FieldId", "Values": ["custom-pool-b-manifest"] },
+              { "Key": "ResourceType", "Values": ["filesummary"] },
+              { "Key": "ResourceId", "Values": ["679690"] },
+              { "Key": "ResourceHref", "Values": ["v1pre3/files/679690"] }
+            ]
+          ],
+          "HrefItems":
+            "v1pre3/appsessions/277301/properties/Input.custom-pool-b-manifest.attributes/items",
+          "ItemsDisplayedCount": 1,
+          "ItemsTotalCount": 1
+        },
+        {
+          "Type": "file[]",
+          "Href": "v1pre3/appsessions/277301/properties/Input.Files",
+          "Name": "Input.Files",
+          "Description": "",
+          "Items": [
+            {
+              "Id": "679692",
+              "Href": "v1pre3/files/679692",
+              "HrefContent": "v1pre3/files/679692/content",
+              "Name": "LundU_Staaf_TST-AddOn_StrandA_Manifest.txt",
+              "ContentType": "text/plain",
+              "Size": 654259,
+              "Path": "LundU_Staaf_TST-AddOn_StrandA_Manifest.txt",
+              "DateCreated": "2017-11-13T19:42:35.0000000",
+              "ParentAppResult": {
+                "Id": "53057",
+                "Href": "v1pre3/appresults/53057",
+                "UserOwnedBy": {
+                  "Id": "78081",
+                  "Href": "v1pre3/users/78081",
+                  "Name": "stebe user1",
+                  "DateCreated": "0001-01-01T00:00:00.0000000",
+                  "GravatarUrl":
+                    "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                },
+                "Name": "LundU_Staaf_TST-AddOn_Manifest",
+                "Status": "Complete",
+                "StatusSummary": "",
+                "DateCreated": "2017-11-13T19:42:34.0000000",
+                "TotalSize": 1295707,
+                "AppSession": {
+                  "Id": "276280",
+                  "Name": "LundU_Staaf_TST-AddOn_Manifest",
+                  "Href": "v1pre3/appsessions/276280",
+                  "Application": {
+                    "Id": "10",
+                    "Href": "v1pre3/applications/10",
+                    "Name": "Imported",
+                    "VersionNumber": "1.0.0",
+                    "ShortDescription": "auto created for uploader app",
+                    "DateCreated": "2016-05-04T00:00:00.0000000",
+                    "PublishStatus": "Published",
+                    "IsBillingActivated": false,
+                    "Category": "Uploader",
+                    "Classifications": [],
+                    "AppFamilySlug": "imported",
+                    "AppVersionSlug": "imported.1.0.0",
+                    "Features": [],
+                    "LockStatus": "Unlocked"
+                  },
+                  "UserCreatedBy": {
+                    "Id": "78081",
+                    "Href": "v1pre3/users/78081",
+                    "Name": "stebe user1",
+                    "DateCreated": "0001-01-01T00:00:00.0000000",
+                    "GravatarUrl":
+                      "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                  },
+                  "Status": "Complete",
+                  "QcStatus": "Undefined",
+                  "StatusSummary": "",
+                  "DateCreated": "2017-11-13T19:42:34.0000000",
+                  "ModifiedOn": "2017-11-13T19:42:40.0000000",
+                  "DateCompleted": "2017-11-13T19:42:44.0000000",
+                  "TotalSize": 1295707
+                }
+              },
+              "Category": "Basespace.Manifest.Amplicon",
+              "ETag": "cd7296a4e32aea960b57fde5f0ba0c57",
+              "IdAsLong": 679692
+            }
+          ],
+          "HrefItems": "v1pre3/appsessions/277301/properties/Input.Files/items",
+          "ItemsDisplayedCount": 1,
+          "ItemsTotalCount": 1
+        },
+        {
+          "Type": "string",
+          "Href": "v1pre3/appsessions/277301/properties/Input.manifest-id",
+          "Name": "Input.manifest-id",
+          "Description": "Targeted Amplicons",
+          "Content": "custom"
+        },
+        {
+          "Type": "project",
+          "Href": "v1pre3/appsessions/277301/properties/Input.project-id",
+          "Name": "Input.project-id",
+          "Description": "Save Results To",
+          "Content": {
+            "Id": "252252",
+            "UserOwnedBy": {
+              "Id": "78081",
+              "Href": "v1pre3/users/78081",
+              "Name": "stebe user1",
+              "DateCreated": "0001-01-01T00:00:00.0000000",
+              "GravatarUrl":
+                "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+            },
+            "Href": "v1pre3/projects/252252",
+            "Name": "Amplicon DS",
+            "Description": "",
+            "DateCreated": "2017-11-13T19:41:32.0000000",
+            "DateModified": "2017-11-13T19:44:44.0000000",
+            "HasCollaborators": false,
+            "TotalSize": 340721753
+          }
+        },
+        {
+          "Type": "map[]",
+          "Href":
+            "v1pre3/appsessions/277301/properties/Input.project-id.attributes",
+          "Name": "Input.project-id.attributes",
+          "Description": "Save Results To Attributes",
+          "Items": [
+            [
+              { "Key": "FieldId", "Values": ["project-id"] },
+              { "Key": "ResourceType", "Values": ["project"] },
+              { "Key": "ResourceId", "Values": ["252252"] },
+              { "Key": "ResourceHref", "Values": ["v1pre3/projects/252252"] }
+            ]
+          ],
+          "HrefItems":
+            "v1pre3/appsessions/277301/properties/Input.project-id.attributes/items",
+          "ItemsDisplayedCount": 1,
+          "ItemsTotalCount": 1
+        },
+        {
+          "Type": "project[]",
+          "Href": "v1pre3/appsessions/277301/properties/Input.Projects",
+          "Name": "Input.Projects",
+          "Description": "",
+          "Items": [
+            {
+              "Id": "252252",
+              "UserOwnedBy": {
+                "Id": "78081",
+                "Href": "v1pre3/users/78081",
+                "Name": "stebe user1",
+                "DateCreated": "0001-01-01T00:00:00.0000000",
+                "GravatarUrl":
+                  "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+              },
+              "Href": "v1pre3/projects/252252",
+              "Name": "Amplicon DS",
+              "Description": "",
+              "DateCreated": "2017-11-13T19:41:32.0000000",
+              "DateModified": "2017-11-13T19:44:44.0000000",
+              "HasCollaborators": false,
+              "TotalSize": 340721753
+            }
+          ],
+          "HrefItems":
+            "v1pre3/appsessions/277301/properties/Input.Projects/items",
+          "ItemsDisplayedCount": 1,
+          "ItemsTotalCount": 1
+        },
+        {
+          "Type": "string[]",
+          "Href":
+            "v1pre3/appsessions/277301/properties/Input.sample-pairs.columns",
+          "Name": "Input.sample-pairs.columns",
+          "Description": "",
+          "Items": [
+            "Input.sample-pairs.pool-a-sample",
+            "Input.sample-pairs.pool-b-sample"
+          ],
+          "HrefItems":
+            "v1pre3/appsessions/277301/properties/Input.sample-pairs.columns/items",
+          "ItemsDisplayedCount": 2,
+          "ItemsTotalCount": 2
+        },
+        {
+          "Type": "string",
+          "Href":
+            "v1pre3/appsessions/277301/properties/Input.sample-pairs.num-columns",
+          "Name": "Input.sample-pairs.num-columns",
+          "Description": "",
+          "Content": "2"
+        },
+        {
+          "Type": "sample[]",
+          "Href":
+            "v1pre3/appsessions/277301/properties/Input.sample-pairs.pool-a-sample",
+          "Name": "Input.sample-pairs.pool-a-sample",
+          "Description": "Pool A Samples",
+          "Items": [
+            {
+              "Id": "98099",
+              "Href": "v1pre3/samples/98099",
+              "IsMerged": false,
+              "UserOwnedBy": {
+                "Id": "78081",
+                "Href": "v1pre3/users/78081",
+                "Name": "stebe user1",
+                "DateCreated": "0001-01-01T00:00:00.0000000",
+                "GravatarUrl":
+                  "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+              },
+              "Name": "LundU-Staaf-A-NA12878-1",
+              "SampleId": "LundU-Staaf-A-NA12878-1",
+              "Status": "Complete",
+              "StatusSummary": "",
+              "DateCreated": "2017-11-13T19:43:43.0000000",
+              "TotalSize": 75998042,
+              "Library": {
+                "OwnerUser": {
+                  "Id": "78081",
+                  "Href": "v1pre3/users/78081",
+                  "Name": "stebe user1",
+                  "DateCreated": "0001-01-01T00:00:00.0000000",
+                  "GravatarUrl":
+                    "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                },
+                "Id": "67068",
+                "Href": "v1pre3/libraries/67068",
+                "BiologicalSample": {
+                  "Id": "74075",
+                  "Href": "v1pre3/biologicalsamples/74075",
+                  "UserSampleId": "LundU-Staaf-A-NA12878-1",
+                  "NucleicAcid": "Undefined",
+                  "Project": {
+                    "Id": "252252",
+                    "UserOwnedBy": {
+                      "Id": "78081",
+                      "Href": "v1pre3/users/78081",
+                      "Name": "stebe user1",
+                      "DateCreated": "0001-01-01T00:00:00.0000000",
+                      "GravatarUrl":
+                        "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                    },
+                    "Href": "v1pre3/projects/252252",
+                    "Name": "Amplicon DS",
+                    "Description": "",
+                    "DateCreated": "2017-11-13T19:41:32.0000000",
+                    "DateModified": "2017-11-13T19:44:44.0000000",
+                    "HasCollaborators": false,
+                    "TotalSize": 340721753
+                  },
+                  "UserOwnedBy": {
+                    "Id": "78081",
+                    "Href": "v1pre3/users/78081",
+                    "Name": "stebe user1",
+                    "DateCreated": "0001-01-01T00:00:00.0000000",
+                    "GravatarUrl":
+                      "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                  },
+                  "DateModified": "2017-11-13T19:44:00.0000000"
+                },
+                "DateModified": "2017-11-13T19:43:58.0000000",
+                "LibraryPrep": {
+                  "Id": "22",
+                  "Href": "v1pre3/libraryprepkits/22",
+                  "Name": "Unknown",
+                  "ValidIndexingStrategies": "None,SingleIndex,DualIndex",
+                  "ValidReadTypes": "SingleRead,PairedEnd",
+                  "NumIndexCycles": 0,
+                  "DateModified": "2016-05-04T20:37:18.0000000",
+                  "State": "Active",
+                  "DefaultRead1Cycles": 0,
+                  "DefaultRead2Cycles": 0
+                },
+                "Project": {
+                  "Id": "252252",
+                  "UserOwnedBy": {
+                    "Id": "78081",
+                    "Href": "v1pre3/users/78081",
+                    "Name": "stebe user1",
+                    "DateCreated": "0001-01-01T00:00:00.0000000",
+                    "GravatarUrl":
+                      "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                  },
+                  "Href": "v1pre3/projects/252252",
+                  "Name": "Amplicon DS",
+                  "Description": "",
+                  "DateCreated": "2017-11-13T19:41:32.0000000",
+                  "DateModified": "2017-11-13T19:44:44.0000000",
+                  "HasCollaborators": false,
+                  "TotalSize": 340721753
+                },
+                "LibraryName": "LundU-Staaf-A-NA12878-1",
+                "State": "Active"
+              },
+              "Genome": {
+                "Id": "4",
+                "DisplayName": "Homo Sapiens - UCSC (hg19)",
+                "SpeciesName": "Homo sapiens",
+                "Source": "UCSC",
+                "Build": "hg19",
+                "Href": "v1pre3/genomes/4",
+                "HrefAnnotations": "v1pre3/genomes/4/annotations"
+              },
+              "Read1": 76,
+              "Read2": 76,
+              "NumReadsPF": 590057,
+              "NumReadsRaw": 590057,
+              "TotalReadsRaw": 1180114,
+              "TotalReadsPF": 1180114,
+              "TotalClustersRaw": 590057,
+              "TotalClustersPF": 590057,
+              "IsPairedEnd": true
+            },
+            {
+              "Id": "98098",
+              "Href": "v1pre3/samples/98098",
+              "IsMerged": false,
+              "UserOwnedBy": {
+                "Id": "78081",
+                "Href": "v1pre3/users/78081",
+                "Name": "stebe user1",
+                "DateCreated": "0001-01-01T00:00:00.0000000",
+                "GravatarUrl":
+                  "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+              },
+              "Name": "LundU-Staaf-A-NA12877-1",
+              "SampleId": "LundU-Staaf-A-NA12877-1",
+              "Status": "Complete",
+              "StatusSummary": "",
+              "DateCreated": "2017-11-13T19:43:06.0000000",
+              "TotalSize": 74636461,
+              "Library": {
+                "OwnerUser": {
+                  "Id": "78081",
+                  "Href": "v1pre3/users/78081",
+                  "Name": "stebe user1",
+                  "DateCreated": "0001-01-01T00:00:00.0000000",
+                  "GravatarUrl":
+                    "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                },
+                "Id": "67067",
+                "Href": "v1pre3/libraries/67067",
+                "BiologicalSample": {
+                  "Id": "74074",
+                  "Href": "v1pre3/biologicalsamples/74074",
+                  "UserSampleId": "LundU-Staaf-A-NA12877-1",
+                  "NucleicAcid": "Undefined",
+                  "Project": {
+                    "Id": "252252",
+                    "UserOwnedBy": {
+                      "Id": "78081",
+                      "Href": "v1pre3/users/78081",
+                      "Name": "stebe user1",
+                      "DateCreated": "0001-01-01T00:00:00.0000000",
+                      "GravatarUrl":
+                        "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                    },
+                    "Href": "v1pre3/projects/252252",
+                    "Name": "Amplicon DS",
+                    "Description": "",
+                    "DateCreated": "2017-11-13T19:41:32.0000000",
+                    "DateModified": "2017-11-13T19:44:44.0000000",
+                    "HasCollaborators": false,
+                    "TotalSize": 340721753
+                  },
+                  "UserOwnedBy": {
+                    "Id": "78081",
+                    "Href": "v1pre3/users/78081",
+                    "Name": "stebe user1",
+                    "DateCreated": "0001-01-01T00:00:00.0000000",
+                    "GravatarUrl":
+                      "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                  },
+                  "DateModified": "2017-11-13T19:43:24.0000000"
+                },
+                "DateModified": "2017-11-13T19:43:23.0000000",
+                "LibraryPrep": {
+                  "Id": "22",
+                  "Href": "v1pre3/libraryprepkits/22",
+                  "Name": "Unknown",
+                  "ValidIndexingStrategies": "None,SingleIndex,DualIndex",
+                  "ValidReadTypes": "SingleRead,PairedEnd",
+                  "NumIndexCycles": 0,
+                  "DateModified": "2016-05-04T20:37:18.0000000",
+                  "State": "Active",
+                  "DefaultRead1Cycles": 0,
+                  "DefaultRead2Cycles": 0
+                },
+                "Project": {
+                  "Id": "252252",
+                  "UserOwnedBy": {
+                    "Id": "78081",
+                    "Href": "v1pre3/users/78081",
+                    "Name": "stebe user1",
+                    "DateCreated": "0001-01-01T00:00:00.0000000",
+                    "GravatarUrl":
+                      "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                  },
+                  "Href": "v1pre3/projects/252252",
+                  "Name": "Amplicon DS",
+                  "Description": "",
+                  "DateCreated": "2017-11-13T19:41:32.0000000",
+                  "DateModified": "2017-11-13T19:44:44.0000000",
+                  "HasCollaborators": false,
+                  "TotalSize": 340721753
+                },
+                "LibraryName": "LundU-Staaf-A-NA12877-1",
+                "State": "Active"
+              },
+              "Genome": {
+                "Id": "4",
+                "DisplayName": "Homo Sapiens - UCSC (hg19)",
+                "SpeciesName": "Homo sapiens",
+                "Source": "UCSC",
+                "Build": "hg19",
+                "Href": "v1pre3/genomes/4",
+                "HrefAnnotations": "v1pre3/genomes/4/annotations"
+              },
+              "Read1": 76,
+              "Read2": 76,
+              "NumReadsPF": 581994,
+              "NumReadsRaw": 581994,
+              "TotalReadsRaw": 1163988,
+              "TotalReadsPF": 1163988,
+              "TotalClustersRaw": 581994,
+              "TotalClustersPF": 581994,
+              "IsPairedEnd": true
+            }
+          ],
+          "HrefItems":
+            "v1pre3/appsessions/277301/properties/Input.sample-pairs.pool-a-sample/items",
+          "ItemsDisplayedCount": 2,
+          "ItemsTotalCount": 2
+        },
+        {
+          "Type": "sample[]",
+          "Href":
+            "v1pre3/appsessions/277301/properties/Input.sample-pairs.pool-b-sample",
+          "Name": "Input.sample-pairs.pool-b-sample",
+          "Description": "Pool B Samples",
+          "Items": [
+            {
+              "Id": "98101",
+              "Href": "v1pre3/samples/98101",
+              "IsMerged": false,
+              "UserOwnedBy": {
+                "Id": "78081",
+                "Href": "v1pre3/users/78081",
+                "Name": "stebe user1",
+                "DateCreated": "0001-01-01T00:00:00.0000000",
+                "GravatarUrl":
+                  "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+              },
+              "Name": "LundU-Staaf-B-NA12878-1",
+              "SampleId": "LundU-Staaf-B-NA12878-1",
+              "Status": "Complete",
+              "StatusSummary": "",
+              "DateCreated": "2017-11-13T19:44:32.0000000",
+              "TotalSize": 95035342,
+              "Library": {
+                "OwnerUser": {
+                  "Id": "78081",
+                  "Href": "v1pre3/users/78081",
+                  "Name": "stebe user1",
+                  "DateCreated": "0001-01-01T00:00:00.0000000",
+                  "GravatarUrl":
+                    "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                },
+                "Id": "67070",
+                "Href": "v1pre3/libraries/67070",
+                "BiologicalSample": {
+                  "Id": "74077",
+                  "Href": "v1pre3/biologicalsamples/74077",
+                  "UserSampleId": "LundU-Staaf-B-NA12878-1",
+                  "NucleicAcid": "Undefined",
+                  "Project": {
+                    "Id": "252252",
+                    "UserOwnedBy": {
+                      "Id": "78081",
+                      "Href": "v1pre3/users/78081",
+                      "Name": "stebe user1",
+                      "DateCreated": "0001-01-01T00:00:00.0000000",
+                      "GravatarUrl":
+                        "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                    },
+                    "Href": "v1pre3/projects/252252",
+                    "Name": "Amplicon DS",
+                    "Description": "",
+                    "DateCreated": "2017-11-13T19:41:32.0000000",
+                    "DateModified": "2017-11-13T19:44:44.0000000",
+                    "HasCollaborators": false,
+                    "TotalSize": 340721753
+                  },
+                  "UserOwnedBy": {
+                    "Id": "78081",
+                    "Href": "v1pre3/users/78081",
+                    "Name": "stebe user1",
+                    "DateCreated": "0001-01-01T00:00:00.0000000",
+                    "GravatarUrl":
+                      "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                  },
+                  "DateModified": "2017-11-13T19:44:45.0000000"
+                },
+                "DateModified": "2017-11-13T19:44:44.0000000",
+                "LibraryPrep": {
+                  "Id": "22",
+                  "Href": "v1pre3/libraryprepkits/22",
+                  "Name": "Unknown",
+                  "ValidIndexingStrategies": "None,SingleIndex,DualIndex",
+                  "ValidReadTypes": "SingleRead,PairedEnd",
+                  "NumIndexCycles": 0,
+                  "DateModified": "2016-05-04T20:37:18.0000000",
+                  "State": "Active",
+                  "DefaultRead1Cycles": 0,
+                  "DefaultRead2Cycles": 0
+                },
+                "Project": {
+                  "Id": "252252",
+                  "UserOwnedBy": {
+                    "Id": "78081",
+                    "Href": "v1pre3/users/78081",
+                    "Name": "stebe user1",
+                    "DateCreated": "0001-01-01T00:00:00.0000000",
+                    "GravatarUrl":
+                      "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                  },
+                  "Href": "v1pre3/projects/252252",
+                  "Name": "Amplicon DS",
+                  "Description": "",
+                  "DateCreated": "2017-11-13T19:41:32.0000000",
+                  "DateModified": "2017-11-13T19:44:44.0000000",
+                  "HasCollaborators": false,
+                  "TotalSize": 340721753
+                },
+                "LibraryName": "LundU-Staaf-B-NA12878-1",
+                "State": "Active"
+              },
+              "Genome": {
+                "Id": "4",
+                "DisplayName": "Homo Sapiens - UCSC (hg19)",
+                "SpeciesName": "Homo sapiens",
+                "Source": "UCSC",
+                "Build": "hg19",
+                "Href": "v1pre3/genomes/4",
+                "HrefAnnotations": "v1pre3/genomes/4/annotations"
+              },
+              "Read1": 76,
+              "Read2": 76,
+              "NumReadsPF": 737418,
+              "NumReadsRaw": 737418,
+              "TotalReadsRaw": 1474836,
+              "TotalReadsPF": 1474836,
+              "TotalClustersRaw": 737418,
+              "TotalClustersPF": 737418,
+              "IsPairedEnd": true
+            },
+            {
+              "Id": "98100",
+              "Href": "v1pre3/samples/98100",
+              "IsMerged": false,
+              "UserOwnedBy": {
+                "Id": "78081",
+                "Href": "v1pre3/users/78081",
+                "Name": "stebe user1",
+                "DateCreated": "0001-01-01T00:00:00.0000000",
+                "GravatarUrl":
+                  "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+              },
+              "Name": "LundU-Staaf-B-NA12877-1",
+              "SampleId": "LundU-Staaf-B-NA12877-1",
+              "Status": "Complete",
+              "StatusSummary": "",
+              "DateCreated": "2017-11-13T19:44:18.0000000",
+              "TotalSize": 93756201,
+              "Library": {
+                "OwnerUser": {
+                  "Id": "78081",
+                  "Href": "v1pre3/users/78081",
+                  "Name": "stebe user1",
+                  "DateCreated": "0001-01-01T00:00:00.0000000",
+                  "GravatarUrl":
+                    "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                },
+                "Id": "67069",
+                "Href": "v1pre3/libraries/67069",
+                "BiologicalSample": {
+                  "Id": "74076",
+                  "Href": "v1pre3/biologicalsamples/74076",
+                  "UserSampleId": "LundU-Staaf-B-NA12877-1",
+                  "NucleicAcid": "Undefined",
+                  "Project": {
+                    "Id": "252252",
+                    "UserOwnedBy": {
+                      "Id": "78081",
+                      "Href": "v1pre3/users/78081",
+                      "Name": "stebe user1",
+                      "DateCreated": "0001-01-01T00:00:00.0000000",
+                      "GravatarUrl":
+                        "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                    },
+                    "Href": "v1pre3/projects/252252",
+                    "Name": "Amplicon DS",
+                    "Description": "",
+                    "DateCreated": "2017-11-13T19:41:32.0000000",
+                    "DateModified": "2017-11-13T19:44:44.0000000",
+                    "HasCollaborators": false,
+                    "TotalSize": 340721753
+                  },
+                  "UserOwnedBy": {
+                    "Id": "78081",
+                    "Href": "v1pre3/users/78081",
+                    "Name": "stebe user1",
+                    "DateCreated": "0001-01-01T00:00:00.0000000",
+                    "GravatarUrl":
+                      "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                  },
+                  "DateModified": "2017-11-13T19:44:31.0000000"
+                },
+                "DateModified": "2017-11-13T19:44:31.0000000",
+                "LibraryPrep": {
+                  "Id": "22",
+                  "Href": "v1pre3/libraryprepkits/22",
+                  "Name": "Unknown",
+                  "ValidIndexingStrategies": "None,SingleIndex,DualIndex",
+                  "ValidReadTypes": "SingleRead,PairedEnd",
+                  "NumIndexCycles": 0,
+                  "DateModified": "2016-05-04T20:37:18.0000000",
+                  "State": "Active",
+                  "DefaultRead1Cycles": 0,
+                  "DefaultRead2Cycles": 0
+                },
+                "Project": {
+                  "Id": "252252",
+                  "UserOwnedBy": {
+                    "Id": "78081",
+                    "Href": "v1pre3/users/78081",
+                    "Name": "stebe user1",
+                    "DateCreated": "0001-01-01T00:00:00.0000000",
+                    "GravatarUrl":
+                      "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                  },
+                  "Href": "v1pre3/projects/252252",
+                  "Name": "Amplicon DS",
+                  "Description": "",
+                  "DateCreated": "2017-11-13T19:41:32.0000000",
+                  "DateModified": "2017-11-13T19:44:44.0000000",
+                  "HasCollaborators": false,
+                  "TotalSize": 340721753
+                },
+                "LibraryName": "LundU-Staaf-B-NA12877-1",
+                "State": "Active"
+              },
+              "Genome": {
+                "Id": "4",
+                "DisplayName": "Homo Sapiens - UCSC (hg19)",
+                "SpeciesName": "Homo sapiens",
+                "Source": "UCSC",
+                "Build": "hg19",
+                "Href": "v1pre3/genomes/4",
+                "HrefAnnotations": "v1pre3/genomes/4/annotations"
+              },
+              "Read1": 76,
+              "Read2": 76,
+              "NumReadsPF": 731805,
+              "NumReadsRaw": 731805,
+              "TotalReadsRaw": 1463610,
+              "TotalReadsPF": 1463610,
+              "TotalClustersRaw": 731805,
+              "TotalClustersPF": 731805,
+              "IsPairedEnd": true
+            }
+          ],
+          "HrefItems":
+            "v1pre3/appsessions/277301/properties/Input.sample-pairs.pool-b-sample/items",
+          "ItemsDisplayedCount": 2,
+          "ItemsTotalCount": 2
+        },
+        {
+          "Type": "string",
+          "Href":
+            "v1pre3/appsessions/277301/properties/Input.sample-pairs.rowcount",
+          "Name": "Input.sample-pairs.rowcount",
+          "Description": "",
+          "Content": "2"
+        },
+        {
+          "Type": "sample[]",
+          "Href": "v1pre3/appsessions/277301/properties/Input.Samples",
+          "Name": "Input.Samples",
+          "Description": "",
+          "Items": [
+            {
+              "Id": "98098",
+              "Href": "v1pre3/samples/98098",
+              "IsMerged": false,
+              "UserOwnedBy": {
+                "Id": "78081",
+                "Href": "v1pre3/users/78081",
+                "Name": "stebe user1",
+                "DateCreated": "0001-01-01T00:00:00.0000000",
+                "GravatarUrl":
+                  "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+              },
+              "Name": "LundU-Staaf-A-NA12877-1",
+              "SampleId": "LundU-Staaf-A-NA12877-1",
+              "Status": "Complete",
+              "StatusSummary": "",
+              "DateCreated": "2017-11-13T19:43:06.0000000",
+              "TotalSize": 74636461,
+              "Library": {
+                "OwnerUser": {
+                  "Id": "78081",
+                  "Href": "v1pre3/users/78081",
+                  "Name": "stebe user1",
+                  "DateCreated": "0001-01-01T00:00:00.0000000",
+                  "GravatarUrl":
+                    "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                },
+                "Id": "67067",
+                "Href": "v1pre3/libraries/67067",
+                "BiologicalSample": {
+                  "Id": "74074",
+                  "Href": "v1pre3/biologicalsamples/74074",
+                  "UserSampleId": "LundU-Staaf-A-NA12877-1",
+                  "NucleicAcid": "Undefined",
+                  "Project": {
+                    "Id": "252252",
+                    "UserOwnedBy": {
+                      "Id": "78081",
+                      "Href": "v1pre3/users/78081",
+                      "Name": "stebe user1",
+                      "DateCreated": "0001-01-01T00:00:00.0000000",
+                      "GravatarUrl":
+                        "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                    },
+                    "Href": "v1pre3/projects/252252",
+                    "Name": "Amplicon DS",
+                    "Description": "",
+                    "DateCreated": "2017-11-13T19:41:32.0000000",
+                    "DateModified": "2017-11-13T19:44:44.0000000",
+                    "HasCollaborators": false,
+                    "TotalSize": 340721753
+                  },
+                  "UserOwnedBy": {
+                    "Id": "78081",
+                    "Href": "v1pre3/users/78081",
+                    "Name": "stebe user1",
+                    "DateCreated": "0001-01-01T00:00:00.0000000",
+                    "GravatarUrl":
+                      "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                  },
+                  "DateModified": "2017-11-13T19:43:24.0000000"
+                },
+                "DateModified": "2017-11-13T19:43:23.0000000",
+                "LibraryPrep": {
+                  "Id": "22",
+                  "Href": "v1pre3/libraryprepkits/22",
+                  "Name": "Unknown",
+                  "ValidIndexingStrategies": "None,SingleIndex,DualIndex",
+                  "ValidReadTypes": "SingleRead,PairedEnd",
+                  "NumIndexCycles": 0,
+                  "DateModified": "2016-05-04T20:37:18.0000000",
+                  "State": "Active",
+                  "DefaultRead1Cycles": 0,
+                  "DefaultRead2Cycles": 0
+                },
+                "Project": {
+                  "Id": "252252",
+                  "UserOwnedBy": {
+                    "Id": "78081",
+                    "Href": "v1pre3/users/78081",
+                    "Name": "stebe user1",
+                    "DateCreated": "0001-01-01T00:00:00.0000000",
+                    "GravatarUrl":
+                      "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                  },
+                  "Href": "v1pre3/projects/252252",
+                  "Name": "Amplicon DS",
+                  "Description": "",
+                  "DateCreated": "2017-11-13T19:41:32.0000000",
+                  "DateModified": "2017-11-13T19:44:44.0000000",
+                  "HasCollaborators": false,
+                  "TotalSize": 340721753
+                },
+                "LibraryName": "LundU-Staaf-A-NA12877-1",
+                "State": "Active"
+              },
+              "Genome": {
+                "Id": "4",
+                "DisplayName": "Homo Sapiens - UCSC (hg19)",
+                "SpeciesName": "Homo sapiens",
+                "Source": "UCSC",
+                "Build": "hg19",
+                "Href": "v1pre3/genomes/4",
+                "HrefAnnotations": "v1pre3/genomes/4/annotations"
+              },
+              "Read1": 76,
+              "Read2": 76,
+              "NumReadsPF": 581994,
+              "NumReadsRaw": 581994,
+              "TotalReadsRaw": 1163988,
+              "TotalReadsPF": 1163988,
+              "TotalClustersRaw": 581994,
+              "TotalClustersPF": 581994,
+              "IsPairedEnd": true
+            },
+            {
+              "Id": "98099",
+              "Href": "v1pre3/samples/98099",
+              "IsMerged": false,
+              "UserOwnedBy": {
+                "Id": "78081",
+                "Href": "v1pre3/users/78081",
+                "Name": "stebe user1",
+                "DateCreated": "0001-01-01T00:00:00.0000000",
+                "GravatarUrl":
+                  "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+              },
+              "Name": "LundU-Staaf-A-NA12878-1",
+              "SampleId": "LundU-Staaf-A-NA12878-1",
+              "Status": "Complete",
+              "StatusSummary": "",
+              "DateCreated": "2017-11-13T19:43:43.0000000",
+              "TotalSize": 75998042,
+              "Library": {
+                "OwnerUser": {
+                  "Id": "78081",
+                  "Href": "v1pre3/users/78081",
+                  "Name": "stebe user1",
+                  "DateCreated": "0001-01-01T00:00:00.0000000",
+                  "GravatarUrl":
+                    "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                },
+                "Id": "67068",
+                "Href": "v1pre3/libraries/67068",
+                "BiologicalSample": {
+                  "Id": "74075",
+                  "Href": "v1pre3/biologicalsamples/74075",
+                  "UserSampleId": "LundU-Staaf-A-NA12878-1",
+                  "NucleicAcid": "Undefined",
+                  "Project": {
+                    "Id": "252252",
+                    "UserOwnedBy": {
+                      "Id": "78081",
+                      "Href": "v1pre3/users/78081",
+                      "Name": "stebe user1",
+                      "DateCreated": "0001-01-01T00:00:00.0000000",
+                      "GravatarUrl":
+                        "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                    },
+                    "Href": "v1pre3/projects/252252",
+                    "Name": "Amplicon DS",
+                    "Description": "",
+                    "DateCreated": "2017-11-13T19:41:32.0000000",
+                    "DateModified": "2017-11-13T19:44:44.0000000",
+                    "HasCollaborators": false,
+                    "TotalSize": 340721753
+                  },
+                  "UserOwnedBy": {
+                    "Id": "78081",
+                    "Href": "v1pre3/users/78081",
+                    "Name": "stebe user1",
+                    "DateCreated": "0001-01-01T00:00:00.0000000",
+                    "GravatarUrl":
+                      "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                  },
+                  "DateModified": "2017-11-13T19:44:00.0000000"
+                },
+                "DateModified": "2017-11-13T19:43:58.0000000",
+                "LibraryPrep": {
+                  "Id": "22",
+                  "Href": "v1pre3/libraryprepkits/22",
+                  "Name": "Unknown",
+                  "ValidIndexingStrategies": "None,SingleIndex,DualIndex",
+                  "ValidReadTypes": "SingleRead,PairedEnd",
+                  "NumIndexCycles": 0,
+                  "DateModified": "2016-05-04T20:37:18.0000000",
+                  "State": "Active",
+                  "DefaultRead1Cycles": 0,
+                  "DefaultRead2Cycles": 0
+                },
+                "Project": {
+                  "Id": "252252",
+                  "UserOwnedBy": {
+                    "Id": "78081",
+                    "Href": "v1pre3/users/78081",
+                    "Name": "stebe user1",
+                    "DateCreated": "0001-01-01T00:00:00.0000000",
+                    "GravatarUrl":
+                      "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                  },
+                  "Href": "v1pre3/projects/252252",
+                  "Name": "Amplicon DS",
+                  "Description": "",
+                  "DateCreated": "2017-11-13T19:41:32.0000000",
+                  "DateModified": "2017-11-13T19:44:44.0000000",
+                  "HasCollaborators": false,
+                  "TotalSize": 340721753
+                },
+                "LibraryName": "LundU-Staaf-A-NA12878-1",
+                "State": "Active"
+              },
+              "Genome": {
+                "Id": "4",
+                "DisplayName": "Homo Sapiens - UCSC (hg19)",
+                "SpeciesName": "Homo sapiens",
+                "Source": "UCSC",
+                "Build": "hg19",
+                "Href": "v1pre3/genomes/4",
+                "HrefAnnotations": "v1pre3/genomes/4/annotations"
+              },
+              "Read1": 76,
+              "Read2": 76,
+              "NumReadsPF": 590057,
+              "NumReadsRaw": 590057,
+              "TotalReadsRaw": 1180114,
+              "TotalReadsPF": 1180114,
+              "TotalClustersRaw": 590057,
+              "TotalClustersPF": 590057,
+              "IsPairedEnd": true
+            },
+            {
+              "Id": "98100",
+              "Href": "v1pre3/samples/98100",
+              "IsMerged": false,
+              "UserOwnedBy": {
+                "Id": "78081",
+                "Href": "v1pre3/users/78081",
+                "Name": "stebe user1",
+                "DateCreated": "0001-01-01T00:00:00.0000000",
+                "GravatarUrl":
+                  "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+              },
+              "Name": "LundU-Staaf-B-NA12877-1",
+              "SampleId": "LundU-Staaf-B-NA12877-1",
+              "Status": "Complete",
+              "StatusSummary": "",
+              "DateCreated": "2017-11-13T19:44:18.0000000",
+              "TotalSize": 93756201,
+              "Library": {
+                "OwnerUser": {
+                  "Id": "78081",
+                  "Href": "v1pre3/users/78081",
+                  "Name": "stebe user1",
+                  "DateCreated": "0001-01-01T00:00:00.0000000",
+                  "GravatarUrl":
+                    "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                },
+                "Id": "67069",
+                "Href": "v1pre3/libraries/67069",
+                "BiologicalSample": {
+                  "Id": "74076",
+                  "Href": "v1pre3/biologicalsamples/74076",
+                  "UserSampleId": "LundU-Staaf-B-NA12877-1",
+                  "NucleicAcid": "Undefined",
+                  "Project": {
+                    "Id": "252252",
+                    "UserOwnedBy": {
+                      "Id": "78081",
+                      "Href": "v1pre3/users/78081",
+                      "Name": "stebe user1",
+                      "DateCreated": "0001-01-01T00:00:00.0000000",
+                      "GravatarUrl":
+                        "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                    },
+                    "Href": "v1pre3/projects/252252",
+                    "Name": "Amplicon DS",
+                    "Description": "",
+                    "DateCreated": "2017-11-13T19:41:32.0000000",
+                    "DateModified": "2017-11-13T19:44:44.0000000",
+                    "HasCollaborators": false,
+                    "TotalSize": 340721753
+                  },
+                  "UserOwnedBy": {
+                    "Id": "78081",
+                    "Href": "v1pre3/users/78081",
+                    "Name": "stebe user1",
+                    "DateCreated": "0001-01-01T00:00:00.0000000",
+                    "GravatarUrl":
+                      "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                  },
+                  "DateModified": "2017-11-13T19:44:31.0000000"
+                },
+                "DateModified": "2017-11-13T19:44:31.0000000",
+                "LibraryPrep": {
+                  "Id": "22",
+                  "Href": "v1pre3/libraryprepkits/22",
+                  "Name": "Unknown",
+                  "ValidIndexingStrategies": "None,SingleIndex,DualIndex",
+                  "ValidReadTypes": "SingleRead,PairedEnd",
+                  "NumIndexCycles": 0,
+                  "DateModified": "2016-05-04T20:37:18.0000000",
+                  "State": "Active",
+                  "DefaultRead1Cycles": 0,
+                  "DefaultRead2Cycles": 0
+                },
+                "Project": {
+                  "Id": "252252",
+                  "UserOwnedBy": {
+                    "Id": "78081",
+                    "Href": "v1pre3/users/78081",
+                    "Name": "stebe user1",
+                    "DateCreated": "0001-01-01T00:00:00.0000000",
+                    "GravatarUrl":
+                      "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                  },
+                  "Href": "v1pre3/projects/252252",
+                  "Name": "Amplicon DS",
+                  "Description": "",
+                  "DateCreated": "2017-11-13T19:41:32.0000000",
+                  "DateModified": "2017-11-13T19:44:44.0000000",
+                  "HasCollaborators": false,
+                  "TotalSize": 340721753
+                },
+                "LibraryName": "LundU-Staaf-B-NA12877-1",
+                "State": "Active"
+              },
+              "Genome": {
+                "Id": "4",
+                "DisplayName": "Homo Sapiens - UCSC (hg19)",
+                "SpeciesName": "Homo sapiens",
+                "Source": "UCSC",
+                "Build": "hg19",
+                "Href": "v1pre3/genomes/4",
+                "HrefAnnotations": "v1pre3/genomes/4/annotations"
+              },
+              "Read1": 76,
+              "Read2": 76,
+              "NumReadsPF": 731805,
+              "NumReadsRaw": 731805,
+              "TotalReadsRaw": 1463610,
+              "TotalReadsPF": 1463610,
+              "TotalClustersRaw": 731805,
+              "TotalClustersPF": 731805,
+              "IsPairedEnd": true
+            },
+            {
+              "Id": "98101",
+              "Href": "v1pre3/samples/98101",
+              "IsMerged": false,
+              "UserOwnedBy": {
+                "Id": "78081",
+                "Href": "v1pre3/users/78081",
+                "Name": "stebe user1",
+                "DateCreated": "0001-01-01T00:00:00.0000000",
+                "GravatarUrl":
+                  "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+              },
+              "Name": "LundU-Staaf-B-NA12878-1",
+              "SampleId": "LundU-Staaf-B-NA12878-1",
+              "Status": "Complete",
+              "StatusSummary": "",
+              "DateCreated": "2017-11-13T19:44:32.0000000",
+              "TotalSize": 95035342,
+              "Library": {
+                "OwnerUser": {
+                  "Id": "78081",
+                  "Href": "v1pre3/users/78081",
+                  "Name": "stebe user1",
+                  "DateCreated": "0001-01-01T00:00:00.0000000",
+                  "GravatarUrl":
+                    "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                },
+                "Id": "67070",
+                "Href": "v1pre3/libraries/67070",
+                "BiologicalSample": {
+                  "Id": "74077",
+                  "Href": "v1pre3/biologicalsamples/74077",
+                  "UserSampleId": "LundU-Staaf-B-NA12878-1",
+                  "NucleicAcid": "Undefined",
+                  "Project": {
+                    "Id": "252252",
+                    "UserOwnedBy": {
+                      "Id": "78081",
+                      "Href": "v1pre3/users/78081",
+                      "Name": "stebe user1",
+                      "DateCreated": "0001-01-01T00:00:00.0000000",
+                      "GravatarUrl":
+                        "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                    },
+                    "Href": "v1pre3/projects/252252",
+                    "Name": "Amplicon DS",
+                    "Description": "",
+                    "DateCreated": "2017-11-13T19:41:32.0000000",
+                    "DateModified": "2017-11-13T19:44:44.0000000",
+                    "HasCollaborators": false,
+                    "TotalSize": 340721753
+                  },
+                  "UserOwnedBy": {
+                    "Id": "78081",
+                    "Href": "v1pre3/users/78081",
+                    "Name": "stebe user1",
+                    "DateCreated": "0001-01-01T00:00:00.0000000",
+                    "GravatarUrl":
+                      "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                  },
+                  "DateModified": "2017-11-13T19:44:45.0000000"
+                },
+                "DateModified": "2017-11-13T19:44:44.0000000",
+                "LibraryPrep": {
+                  "Id": "22",
+                  "Href": "v1pre3/libraryprepkits/22",
+                  "Name": "Unknown",
+                  "ValidIndexingStrategies": "None,SingleIndex,DualIndex",
+                  "ValidReadTypes": "SingleRead,PairedEnd",
+                  "NumIndexCycles": 0,
+                  "DateModified": "2016-05-04T20:37:18.0000000",
+                  "State": "Active",
+                  "DefaultRead1Cycles": 0,
+                  "DefaultRead2Cycles": 0
+                },
+                "Project": {
+                  "Id": "252252",
+                  "UserOwnedBy": {
+                    "Id": "78081",
+                    "Href": "v1pre3/users/78081",
+                    "Name": "stebe user1",
+                    "DateCreated": "0001-01-01T00:00:00.0000000",
+                    "GravatarUrl":
+                      "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+                  },
+                  "Href": "v1pre3/projects/252252",
+                  "Name": "Amplicon DS",
+                  "Description": "",
+                  "DateCreated": "2017-11-13T19:41:32.0000000",
+                  "DateModified": "2017-11-13T19:44:44.0000000",
+                  "HasCollaborators": false,
+                  "TotalSize": 340721753
+                },
+                "LibraryName": "LundU-Staaf-B-NA12878-1",
+                "State": "Active"
+              },
+              "Genome": {
+                "Id": "4",
+                "DisplayName": "Homo Sapiens - UCSC (hg19)",
+                "SpeciesName": "Homo sapiens",
+                "Source": "UCSC",
+                "Build": "hg19",
+                "Href": "v1pre3/genomes/4",
+                "HrefAnnotations": "v1pre3/genomes/4/annotations"
+              },
+              "Read1": 76,
+              "Read2": 76,
+              "NumReadsPF": 737418,
+              "NumReadsRaw": 737418,
+              "TotalReadsRaw": 1474836,
+              "TotalReadsPF": 1474836,
+              "TotalClustersRaw": 737418,
+              "TotalClustersPF": 737418,
+              "IsPairedEnd": true
+            }
+          ],
+          "HrefItems":
+            "v1pre3/appsessions/277301/properties/Input.Samples/items",
+          "ItemsDisplayedCount": 4,
+          "ItemsTotalCount": 4
+        },
+        {
+          "Type": "string",
+          "Href": "v1pre3/appsessions/277301/properties/Input.variant-caller",
+          "Name": "Input.variant-caller",
+          "Description": "Variant Caller",
+          "Content": "Somatic"
+        },
+        {
+          "Type": "project[]",
+          "Href": "v1pre3/appsessions/277301/properties/Output.Projects",
+          "Name": "Output.Projects",
+          "Description": "",
+          "Items": [
+            {
+              "Id": "252252",
+              "UserOwnedBy": {
+                "Id": "78081",
+                "Href": "v1pre3/users/78081",
+                "Name": "stebe user1",
+                "DateCreated": "0001-01-01T00:00:00.0000000",
+                "GravatarUrl":
+                  "https://secure.gravatar.com/avatar/351fc4fc2f1a845017d15dc791a1f631.jpg?s=20&d=mm&r=PG"
+              },
+              "Href": "v1pre3/projects/252252",
+              "Name": "Amplicon DS",
+              "Description": "",
+              "DateCreated": "2017-11-13T19:41:32.0000000",
+              "DateModified": "2017-11-13T19:44:44.0000000",
+              "HasCollaborators": false,
+              "TotalSize": 340721753
+            }
+          ],
+          "HrefItems":
+            "v1pre3/appsessions/277301/properties/Output.Projects/items",
+          "ItemsDisplayedCount": 1,
+          "ItemsTotalCount": 1
+        }
+      ],
+      "DisplayedCount": 21,
+      "TotalCount": 21,
+      "Href": "v1pre3/appsessions/277301/properties"
+    }
+  },
+  "ResponseStatus": {},
+  "Notifications": []
+}
