@@ -97,10 +97,22 @@ def brute_force_cow_transport(cows,limit=10):
     transported on a particular trip and the overall list containing all the
     trips
     """
-    # TODO: Your code here
-    pass
-
-        
+    meetLimit = False
+    bestSolution =[]     
+    for partition in (get_partitions(cows)):        
+        for items in partition:
+            itemsWeight = 0
+            for item in items:
+                itemsWeight += cows[item]
+            if (itemsWeight > limit):
+               meetLimit = False
+               break
+            else:
+               meetLimit = True
+        if meetLimit:
+            if len(bestSolution) == 0 or len(bestSolution) > len(partition):
+                bestSolution  = partition
+    return bestSolution
 # Problem 3
 def compare_cow_transport_algorithms():
     """
