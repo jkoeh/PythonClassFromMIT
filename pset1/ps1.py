@@ -65,7 +65,7 @@ def greedy_cow_transport(cows,limit=10):
         weight = 0    
         list = []
     #add key until reach limit
-        for key in keys:               
+        for key in keys:     
             if (weight + cows[key]) <= limit:
                 weight += cows[key]                
                 list.append(key)              
@@ -127,7 +127,14 @@ def compare_cow_transport_algorithms():
     Returns:
     Does not return anything.
     """
-    # TODO: Your code here
+    start = time.time()
+    greedyTrip = len(greedy_cow_transport(cows, limit))
+    end = time.time()
+    print("Greed transport takes " + str(greedyTrip) + " trips and " + str(end-start) + " miniseconds")
+    start = time.time()
+    bruteForceTrip  = len(brute_force_cow_transport(cows, limit))
+    end = time.time()
+    print("Brute force transport takes " + str(bruteForceTrip) + " trips and " + str(end-start) + " miniseconds")
     pass
 
 
@@ -139,9 +146,10 @@ lines to print the result of your problem.
 
 cows = load_cows("ps1_cow_data.txt")
 limit=10
-print(cows)
-
-print(greedy_cow_transport(cows, limit))
-print(brute_force_cow_transport(cows, limit))
+compare_cow_transport_algorithms()
+#print(cows)
+#
+#print(greedy_cow_transport(cows, limit))
+#print(brute_force_cow_transport(cows, limit))
 
 
