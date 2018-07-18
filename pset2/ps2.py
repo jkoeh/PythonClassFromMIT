@@ -151,91 +151,6 @@ class RectangularRoom(object):
 
 
 # === Problem 2
-class RectangularRoom(object):
-    """
-    A RectangularRoom represents a rectangular region containing clean or dirty
-    tiles.
-
-    A room has a width and a height and contains (width * height) tiles. At any
-    particular time, each of these tiles is either clean or dirty.
-    """
-    def __init__(self, width, height):
-        """
-        Initializes a rectangular room with the specified width and height.
-
-        Initially, no tiles in the room have been cleaned.
-
-        width: an integer > 0
-        height: an integer > 0
-        """
-        self.width = width
-        self.height = height
-        self.cleanedTiles = []
-    
-    def cleanTileAtPosition(self, pos):
-        """
-        Mark the tile under the position POS as cleaned.
-
-        Assumes that POS represents a valid position inside this room.
-
-        pos: a Position
-        """
-        x = math.floor(pos.getX())
-        y = math.floor(pos.getY())
-        
-        if(not self.isTileCleaned(x,y)):
-            self.cleanedTiles.append((x,y))
-
-    def isTileCleaned(self, m, n):
-        """
-        Return True if the tile (m, n) has been cleaned.
-
-        Assumes that (m, n) represents a valid tile inside the room.
-
-        m: an integer
-        n: an integer
-        returns: True if (m, n) is cleaned, False otherwise
-        """       
-        return (m, n) in self.cleanedTiles
-    
-    def getNumTiles(self):
-        """
-        Return the total number of tiles in the room.
-
-        returns: an integer
-        """
-        return self.width* self.height
-
-    def getNumCleanedTiles(self):
-        """
-        Return the total number of clean tiles in the room.
-
-        returns: an integer
-        """
-        return len(self.cleanedTiles)
-
-    def getRandomPosition(self):
-        """
-        Return a random position inside the room.
-
-        returns: a Position object.
-        """
-        x = random.random() * self.width
-        y =  random.random() * self.height
-        return Position(x, y)
-
-    def isPositionInRoom(self, pos):
-        """
-        Return True if pos is inside the room.
-
-        pos: a Position object.
-        returns: True if pos is in the room, False otherwise.
-        """
-        x = pos.getX()
-        y = pos.getY()
-        return x < self.width and y < self.height and x >=0 and y >=0
-
-# === Problem 2
 class Robot(object):
     """
     Represents a robot cleaning a particular room.
@@ -356,14 +271,40 @@ def runSimulation(num_robots, speed, width, height, min_coverage, num_trials,
     num_trials: an int (num_trials > 0)
     robot_type: class of robot to be instantiated (e.g. StandardRobot or
                 RandomWalkRobot)
-    """
-    raise NotImplementedError
-
+    """ 
+    aggregate = 0    
+    
+    for trial in range(num_trials):
+        anim = ps2_visualize.RobotVisualization(num_robots, width, height)
+        room = RectangularRoom(width, height)
+        timesteps = runSingleTrial(anim, robot_type, num_robots, room, speed, min_coverage)
+        aggregate += timesteps
+        anim.done()
+    return aggregate/num_trials
+        
+    
+def runSingleTrial(anim, robot_type, num_robots, room, speed, min_coverage):
+    robots = []
+    timesteps = 0
+    for i in range(num_robots):        
+        robots.append(robot_type(room, speed))
+    coverage = room.getNumCleanedTiles()/room.getNumTiles()
+    while(coverage <= min_coverage):
+        timesteps +=1
+        anim.update(room, robots)
+        for robot in robots:
+            
+            robot.updatePositionAndClean()
+            coverage = room.getNumCleanedTiles()/room.getNumTiles()
+            if(coverage > min_coverage):
+                break;
+    return timesteps
+    
 # Uncomment this line to see how much your simulation takes on average
-##print(runSimulation(1, 1.0, 10, 10, 0.75, 30, StandardRobot))
+print(runSimulation(10, 10.0, 100, 100, 0.75, 30, StandardRobot))
 
 
-# === Problem 5
+# === Problem 5     
 class RandomWalkRobot(Robot):
     """
     A RandomWalkRobot is a robot with the "random walk" movement strategy: it
