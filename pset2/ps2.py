@@ -275,15 +275,15 @@ def runSimulation(num_robots, speed, width, height, min_coverage, num_trials,
     aggregate = 0    
     
     for trial in range(num_trials):
-        anim = ps2_visualize.RobotVisualization(num_robots, width, height)
+#        anim = ps2_visualize.RobotVisualization(num_robots, width, height)
         room = RectangularRoom(width, height)
-        timesteps = runSingleTrial(anim, robot_type, num_robots, room, speed, min_coverage)
+        timesteps = runSingleTrial(robot_type, num_robots, room, speed, min_coverage)
         aggregate += timesteps
-        anim.done()
+#        anim.done()
     return aggregate/num_trials
         
     
-def runSingleTrial(anim, robot_type, num_robots, room, speed, min_coverage):
+def runSingleTrial(robot_type, num_robots, room, speed, min_coverage):
     robots = []
     timesteps = 0
     for i in range(num_robots):        
@@ -291,7 +291,7 @@ def runSingleTrial(anim, robot_type, num_robots, room, speed, min_coverage):
     coverage = room.getNumCleanedTiles()/room.getNumTiles()
     while(coverage <= min_coverage):
         timesteps +=1
-        anim.update(room, robots)
+#        anim.update(room, robots)
         for robot in robots:
             
             robot.updatePositionAndClean()
@@ -301,7 +301,7 @@ def runSingleTrial(anim, robot_type, num_robots, room, speed, min_coverage):
     return timesteps
     
 # Uncomment this line to see how much your simulation takes on average
-print(runSimulation(10, 10.0, 100, 100, 0.75, 30, StandardRobot))
+print(runSimulation(5, 1.0, 10, 10, 0.75, 30, RandomWalkRobot))
 
 
 # === Problem 5     
@@ -317,7 +317,20 @@ class RandomWalkRobot(Robot):
         Move the robot to a new position and mark the tile it is on as having
         been cleaned.
         """
-        raise NotImplementedError
+        newDirection = random.randint(0,359)
+        while(self.direction == newDirection):
+                        newDirection = random.randint(0,359) 
+        self.direction = newDirection
+        newPos = self.position.getNewPosition(self.direction, self.speed)
+        if(self.room.isPositionInRoom(newPos)):
+            self.setRobotPosition(newPos)
+            self.room.cleanTileAtPosition(newPos)
+        else:
+            newDirection = random.randint(0,359)            
+            while(self.direction == newDirection):
+                newDirection = random.randint(0,359)                        
+            self.direction = newDirection
+            self.updatePositionAndClean()
 
 
 def showPlot1(title, x_label, y_label):
