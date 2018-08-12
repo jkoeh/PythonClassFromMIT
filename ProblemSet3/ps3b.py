@@ -350,32 +350,17 @@ class TreatedPatient(Patient):
         maxPop: The  maximum virus population for this patient (an integer)
         """
 
-        # TODO
+        Patient.__init__(self, viruses, maxPop)
+        self.drugs = []
 
 
     def addPrescription(self, newDrug):
-        """
-        Administer a drug to this patient. After a prescription is added, the
-        drug acts on the virus population for all subsequent time steps. If the
-        newDrug is already prescribed to this patient, the method has no effect.
-
-        newDrug: The name of the drug to administer to the patient (a string).
-
-        postcondition: The list of drugs being administered to a patient is updated
-        """
-
-        # TODO
+        if(newDrug not in self.getPrescriptions()):
+            self.drugs.append(newDrug)
 
 
     def getPrescriptions(self):
-        """
-        Returns the drugs that are being administered to this patient.
-
-        returns: The list of drug names (strings) being administered to this
-        patient.
-        """
-
-        # TODO
+        return self.drugs
 
 
     def getResistPop(self, drugResist):
@@ -389,8 +374,17 @@ class TreatedPatient(Patient):
         returns: The population of viruses (an integer) with resistances to all
         drugs in the drugResist list.
         """
-
-        # TODO
+        resistPop = 0   
+        for virus in self.viruses:
+            resistToAll = True
+            for drug in drugResist:
+                if(not virus.isResistantTo(drug)):
+                    resistToAll = False
+                    break
+            if(resistToAll):
+                resistPop+=1
+        return resistPop
+        
 
 
     def update(self):
@@ -412,12 +406,31 @@ class TreatedPatient(Patient):
 
         returns: The total virus population at the end of the update (an
         integer)
-        """
-
-        # TODO
-
-
-
+        """        
+            
+        dead = []
+        totalPop = self.getTotalPop()
+        for i in range(totalPop):          
+            if(self.viruses[i].doesClear()):
+                dead.append(i)
+        if len(dead)!= 0:
+            for i in reversed(dead):                 
+                self.viruses.pop(i)
+        self.popDensity = self.getTotalPop()/self.getMaxPop()
+        currentViruses = self.getViruses().copy()
+        for virus in currentViruses:
+            resist = True
+            for drug in self.getPrescriptions():
+                if (not virus.isResistantTo(drug)):
+                    resist = False
+            if(resist):
+                try:
+                    newVirus = virus.reproduce(self.popDensity, self.getPrescriptions())                      
+                    self.viruses.append(newVirus)
+                except NoChildException:
+                    pass            
+        return self.getTotalPop()
+            
 #
 # PROBLEM 4
 #
@@ -443,5 +456,28 @@ def simulationWithDrug(numViruses, maxPop, maxBirthProb, clearProb, resistances,
     numTrials: number of simulation runs to execute (an integer)
     
     """
-
-    # TODO
+    totalPop=[0]*300
+    resistPop=[0]*300
+    for i in range(numTrials):        
+        virus = ResistantVirus(maxBirthProb, clearProb, resistances, mutProb)        
+        patient = TreatedPatient([virus]*numViruses, maxPop)  
+       
+        for time in range(300):
+            if time == 150:                
+                patient.addPrescription("guttagonol")
+            patient.update()            
+            totalPop[time] += patient.getTotalPop()/numTrials
+            resistPop[time] += patient.getResistPop(["guttagonol"])/numTrials
+    totalPop = [float('{0:.1f}'.format(x)) for x in totalPop]
+    resistPop = [float('{0:.1f}'.format(x)) for x in resistPop]
+    pylab.plot(totalPop, label = "Total Population")
+    pylab.plot(resistPop, label = "Resist Population")
+    pylab.title("Population Growth")
+    pylab.ylabel("Population")
+    pylab.xlabel("TimeStep")
+    pylab.legend(loc = "best")
+    pylab.show()
+        
+        
+    
+    
